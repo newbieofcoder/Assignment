@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "721234781675",
+    "project_id": "assignment-and102-8182b",
+    "storage_bucket": "assignment-and102-8182b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721234781675:android:6a407a1af7fb49ac8965ae",
+        "android_client_info": {
+          "package_name": "hoanglv.fpoly.assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX49I4PcuVonRfPAOsB4MedJuD4yRlI6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721234781675:android:0356c8c4919e786f8965ae",
+        "android_client_info": {
+          "package_name": "hoanglv.fpoly.ph56584"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX49I4PcuVonRfPAOsB4MedJuD4yRlI6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_approval_24"
+            android:title="Quản lý sản phẩm" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/baseline_join_inner_24"
+            android:title="Giới thiệu" />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Đổi mật khẩu" />
+    </group>
+    <group>
+        <item android:title="Khác">
+            <menu>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/baseline_logout_24"
+                    android:title="Đăng xuất" />
+            </menu>
+        </item>
+    </group>
+</menu>

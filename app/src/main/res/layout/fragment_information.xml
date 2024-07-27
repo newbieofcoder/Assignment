@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.InformationFragment">
+
+    <ImageView
+        android:layout_marginVertical="10dp"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="@drawable/ph56584"/>
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:text="Họ tên: LÊ VĂN HOÀNG"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:text="Mã sinh viên: PH56584"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:text="Môn học: Lập trình Android 2"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:text="Mã môn: AND102"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:text="Giáo viên: Nguyễn Quang Hưng"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

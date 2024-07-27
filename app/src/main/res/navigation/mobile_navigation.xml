@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="hoanglv.fpoly.assignment.ui.HomeFragment"
+        android:label="Quản lý sản phẩm"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_information"
+        android:name="hoanglv.fpoly.assignment.ui.InformationFragment"
+        android:label="Thông tin sinh viên"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/nav_changepassword"
+        android:name="hoanglv.fpoly.assignment.ui.ChangPasswordFragment"
+        android:label="Đổi mật khẩu"
+        tools:layout="@layout/fragment_changepassword" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:label="Đăng xuất"
+        android:name="hoanglv.fpoly.assignment.ui.LogoutFragment" />
+</navigation>
